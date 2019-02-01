@@ -89,5 +89,3 @@ All items must have thier own root folder under `Resources`. For every animation
 
 While activated, the `AnimationImporter.cs` will then create the Animator Clips(`.anim`) inside each animation state folder, and the Animator Contoller(`.controller`) at the item root folder at runtime.
 
-Additionally there is the `prefab` folder. Inside there is the generic item object, `DataItem.prefab` with `DataHandler.cs` atttached, as well as the generic trigger/mouse hit detection object, `TriggerObject.prefab` with `ClickScript.cs` atttached. Lastly there is `BallSprite.prefab`, a stand-in object to trigger instantiation via the attached `Spawn.cs`
-
